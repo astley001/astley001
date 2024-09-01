@@ -1,0 +1,12 @@
+print('按绩点计算')
+JL=float(input("军理"))
+Python=float(input('Python'))
+Eng=float(input('英语'))
+PE=float(input('体育'))
+LS=float(input('历史'))
+DW=float(input('大物'))
+GS=float(input('高数'))
+GL=float(input('工程力学'))
+SY=float(input('大物实验'))
+OUTPUT=(JL*2+Python*3+Eng*2+PE+LS*2.5+DW*3+GS*5+GL*2.5+SY*1.5)/22.5
+print((JL*2+Python*3+Eng*2+PE+LS*2.5+DW*3+GS*5+GL*2.5+SY*1.5)/22.5)
